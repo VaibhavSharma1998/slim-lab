@@ -13,8 +13,8 @@
 --secondary-color: #161616;
   --tertiary-color: #fff;
   --quaternary-color: #8C62EC;
-  --quinary-color: #9b59b6;
-  --senary-color: #34495e;
+  --quinary-color: #FAF9FD;
+  --senary-color: #EDE6FF;
   --septenary-color: #16a085;
   --octonary-color: #c0392b;
   --nonary-color: #2980b9;
@@ -248,4 +248,56 @@
     font-weight: 700;
 }
 
-/* 59*/
+/* weightlose-section style starts */
+
+.weightlose-section{
+    background-color: var(--quinary-color);
+    margin-top: 73px;
+}
+
+.weightlose-section-left-div{
+    margin-top: 144px;
+    margin-left: 105px;
+}
+
+.weight-p1{
+    font-weight: 800;
+    font-size: 43px;
+    line-height: 54.24px;
+    color: var(--secondary-color);
+}
+
+.weight-p2{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22.6px;
+    color: var(--secondary-color);
+    margin-top: 21px;
+}
+
+.weightlose-btn{
+    background-color: var(--primary-color);
+    color: var(--tertiary-color);
+    margin-top: 21px;
+    border-radius: 5px;
+    padding: 14px 102px ;
+    font-size: 20px;
+    line-height: 25.24px;
+    font-weight: 700;
+}
+
+.main-fifteen-div{
+    margin-top: 67px ;
+    margin-right: 98.92;
+}
+
+.fifteen-div{
+    background-color: #EDE6FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 36.99px 64.04px 59.04px 62px;
+    border-radius: 5px;
+
+}
