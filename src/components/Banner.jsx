@@ -2,6 +2,7 @@ import React from "react";
 import bannerImg from "../images/banner-img.png";
 import correctBanner from "../images/correct-banner.png";
 import bannerStar from "../images/banner-star.png";
+import './styles.css'
 
 export const Banner = () => {
   return (

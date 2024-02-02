@@ -148,3 +148,104 @@
 }
 
 /* banner style ends */
+
+/* seen style starts */
+
+.hr-line{
+    color: var(--primary-color);
+    margin-top: 83px;
+}
+
+.seen-p{
+    text-align: center;
+    color: var(--secondary-color);
+    font-size: 24px;
+    line-height: 27.12px;
+    font-weight: 700;
+    margin-top: 34px;
+} 
+
+.seen-brand-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 29px;
+}
+
+.lose-p{
+    margin-top: 61.64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 54.24px;
+}
+
+.margint-59{
+    margin-top: 59px;
+}
+
+.consultation-div{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.consultation-img{
+    margin: 0px auto;
+    width: 186px;
+    height: 186px;
+}
+
+.number-one-div{
+    display: flex;
+    margin-top: 39.5px;
+}
+
+.marginl-31{
+    margin-left: 31px;
+}
+
+.schedule-p{
+    color: var(--primary-color);
+    font-size: 24px;
+    line-height: 27.12px;
+    font-weight: 800;
+}
+
+.guidance-p{
+    margin-top: 10px;
+    font-size: 22px;
+    line-height: 22.6px;
+    font-weight: 500;
+    color: var(--secondary-color);
+}
+
+.btn-lose-div{
+    margin-top: 49px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.want-p{
+    color: var(--secondary-color);
+    font-size: 32px;
+    line-height: 36.16px;
+    font-weight: 700;
+}
+
+.seen-btn{
+    background-color: var(--primary-color);
+    color: var(--tertiary-color);
+    margin-left: 65px;
+    border-radius: 5px;
+    padding: 14px 102px ;
+    font-size: 20px;
+    line-height: 25.24px;
+    font-weight: 700;
+}
+
+/* 59*/
