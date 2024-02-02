@@ -1,0 +1,150 @@
+/* Import the custom fonts */
+@import './fonts.css';
+
+/* Apply the custom font family to all elements */
+* {
+    margin:0;
+    padding: 0;
+    font-family: 'Gilroy', sans-serif;
+}
+
+:root {
+--primary-color: #522671;
+--secondary-color: #161616;
+  --tertiary-color: #fff;
+  --quaternary-color: #8C62EC;
+  --quinary-color: #9b59b6;
+  --senary-color: #34495e;
+  --septenary-color: #16a085;
+  --octonary-color: #c0392b;
+  --nonary-color: #2980b9;
+  --denary-color: #d35400;
+  }
+
+
+
+/* navbar style starts */
+
+.navbar-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    margin: 36px 0px;
+}
+
+.navbar-btn{
+    margin-top: 32px 0px 33px 0px;
+    background-color: var(--primary-color);
+    color: var(--tertiary-color);
+    border-radius: 5px;
+    padding: 14px 102px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25.24px;
+}
+
+/* navbar style ends */
+
+/* banner style starts */
+
+.banner-main-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-left-div{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.banner-p1{
+    color: var(--primary-color);
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 22.6px;
+    margin-top: 42px;
+}
+
+.banner-h3{
+    color: var(--secondary-color);
+    font-size: 54px;
+    line-height: 72.32px;
+    font-weight: 800;
+    margin-top: 7px;
+}
+
+.banner-img{
+    margin-top: 17px;
+    margin-left: 45px;
+}
+
+.price-p{
+    font-size: 48px;
+    line-height: 54.24px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.span-price{
+    color: var(--quaternary-color);
+    font-weight: 800;
+    font-size: 48px;
+   
+    /* border-bottom: 3px solid var(--quaternary-color); */
+}
+
+.margin-t7{
+    margin-top: 7px;
+}
+
+.correct-img{
+    width: 19.5px;
+    height: 13.5px;
+}
+
+.correct-p{
+    margin-left: 34.5px;
+    font-size: 20px;
+    line-height: 22.6px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.star{
+    margin-left: 94px;
+}
+
+.rating-p{
+    margin-left: 17px;
+    color: var(--primary-color);
+    font-size: 24px;
+    line-height: 27.12px;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+
+.start-btn{
+    margin-top: 18px;
+    background-color: var(--primary-color);
+    color: var(--tertiary-color);
+    border-radius: 8.09px;
+    padding: 22.64px 164.94px 22.64px ;
+    font-size: 32.34px;
+    line-height: 40.81px;
+    font-weight: 700;
+}
+
+.fee-p{
+    text-align: center;
+    color: var(--secondary-color);
+    font-size: 18px;
+    line-height: 20.34px;
+    font-weight: 700;
+    margin-top: 28.72px;
+}
+
+/* banner style ends */
