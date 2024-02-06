@@ -10,7 +10,7 @@ export const Banner = () => {
       <section>
         <div className="container">
           <div className="row banner-main-div">
-            <div className="col-lg-7">
+            <div className="col-lg-7 col-md-7 col-sm-12">
               <div className="banner-left-div">
                 <p className="banner-p1">
                   The Game-Changing Solution the FDA Stands Behind!
@@ -21,7 +21,7 @@ export const Banner = () => {
                 <p className="price-p">
                   For only: <ins className="span-price">$99/month</ins>
                 </p>
-                <div className="d-flex margin-t7">
+                <div className="d-flex margin-t7 ">
                   <img
                     src={correctBanner}
                     alt="correct-png"
@@ -31,7 +31,7 @@ export const Banner = () => {
                     Lose up to 15% of your body fat in a week
                   </p>
                 </div>
-                <div className="d-flex margin-t7">
+                <div className="d-flex margin-t7 ">
                   <img
                     src={correctBanner}
                     alt="correct-png"
@@ -51,7 +51,7 @@ export const Banner = () => {
                     Prescription to Semaglutide with 6 weeks of medication
                   </p>
                 </div>
-                <div className="d-flex">
+                <div className="star-div">
                   <img src={bannerStar} alt="star" className="star" />
                   <p className="rating-p">4.8 OVER 5 STAR REVIEWS</p>
                 </div>
@@ -61,7 +61,7 @@ export const Banner = () => {
                 <p className="fee-p">NO HIDDEN FEES. NO INSURANCE REQUIRED</p>
               </div>
             </div>
-            <div className="col-lg-5">
+            <div className="col-lg-5 col-md-7 col-sm-12">
               <img
                 src={bannerImg}
                 alt="slim-girl"
