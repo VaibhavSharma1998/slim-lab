@@ -1,10 +1,11 @@
-import React from "react";
+import React,{useState} from "react";
 import logo from "../images/logo.png";
 import hamberger from "../images/hamberger.png"
 
 import './styles.css'
 
 export const Navbar = () => {
+  
   return (
     <div>
       <section>
