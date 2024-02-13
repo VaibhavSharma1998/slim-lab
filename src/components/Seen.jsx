@@ -22,7 +22,7 @@ export const Seen = () => {
           <div className="seen-brand-div">
             <img src={seenImg1} alt="seenImg1" />
             <img src={seenImg2} alt="seenImg2" />
-            <img src={seenImg3} alt="seenImg3" />
+            <img src={seenImg3} alt="seenImg3" className="margin-t40"/>
             <img src={seenImg4} alt="seenImg4" />
             <img src={seenImg5} alt="seenImg5" />
           </div>

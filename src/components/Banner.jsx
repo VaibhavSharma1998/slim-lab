@@ -21,7 +21,7 @@ export const Banner = () => {
                 <p className="price-p">
                   For only: <ins className="span-price">$99/month</ins>
                 </p>
-                <div className="d-flex margin-t7 ">
+                <div className="d-flex margin-t23 ">
                   <img
                     src={correctBanner}
                     alt="correct-png"
@@ -31,7 +31,7 @@ export const Banner = () => {
                     Lose up to 15% of your body fat in a week
                   </p>
                 </div>
-                <div className="d-flex margin-t7 ">
+                <div className="d-flex margin-t29 ">
                   <img
                     src={correctBanner}
                     alt="correct-png"
@@ -41,7 +41,7 @@ export const Banner = () => {
                     Unlimited Consultations with the best Physicians
                   </p>
                 </div>
-                <div className="d-flex margin-t7">
+                <div className="d-flex margin-t29">
                   <img
                     src={correctBanner}
                     alt="correct-png"

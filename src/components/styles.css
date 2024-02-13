@@ -3,9 +3,10 @@
 
 /* Apply the custom font family to all elements */
 * {
-  margin: 0;
-  padding: 0;
+  margin-bottom: 0px !important;
   font-family: "Gilroy", sans-serif;
+  padding-bottom: 0px;
+  overflow-x: hidden;
 }
 
 :root {
@@ -98,10 +99,19 @@
 
 .star-div {
   display: flex;
+  margin-top: 34px;
 }
 
 .margin-t7 {
   margin-top: 7px;
+}
+
+.margin-t23{
+  margin-top: 23px;
+}
+
+.margin-t29{
+  margin-top: 29px;
 }
 
 .correct-img {
@@ -440,7 +450,7 @@
 
   .banner-h3 {
     color: var(--secondary-color);
-    font-size: 44px;
+    font-size: 40px;
     line-height: 50.85px;
     text-align: center;
     margin-top: 30px;
@@ -454,7 +464,7 @@
     font-size: 30px;
     line-height: 33.9px;
     font-weight: 700;
-    margin-top: 15px;
+    margin-top: 30px;
     text-align: center;
   }
 
@@ -468,6 +478,15 @@
   .margin-t7 {
     margin-top: 7px;
   }
+
+
+.margin-t23{
+  margin-top: 30px;
+}
+
+.margin-t29{
+  margin-top: 10px;
+}
 
   .correct-img {
     width: 19.5px;
@@ -515,8 +534,10 @@
 
   .hr-line {
     color: var(--primary-color);
-    margin-top: 83px;
+    margin-top: 51.72px;
   }
+
+  /* seen style starts */
 
   .seen-p {
     text-align: center;
@@ -524,7 +545,7 @@
     font-size: 24px;
     line-height: 27.12px;
     font-weight: 700;
-    margin-top: 34px;
+    margin-top: 56px;
   }
 
   .seen-brand-div {
@@ -532,6 +553,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 29px;
+    gap: 40px;
   }
 
   .lose-p {

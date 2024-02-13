@@ -6,7 +6,7 @@ import { AiOutlineClose } from "react-icons/ai";
 import "./styles.css";
 
 export const Navbar = () => {
-  const [toggle, setToggle] = useState(false);
+  const [toggle, setToggle] = useState(false)
   const handleToggleClick = () => {
     setToggle(!toggle);
   };
